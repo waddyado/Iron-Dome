@@ -8,9 +8,9 @@ def globalVariableIKnow():
     counter = 0
 
 def notifyMe():
-    client = Client("AC6aab50d8783956d39774870c22c2fa3b", "ad8da443c161de8fdbd11e2606db852b")
-    client.messages.create(to="+17272409660",
-                        from_="+13392290104",
+    client = Client("API code", "API Code")
+    client.messages.create(to="+Your Number",
+                        from_="+Twilio number",
                         body="Your Computer is being used by some dumbass")
 
 def menu():
