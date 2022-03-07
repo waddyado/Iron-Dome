@@ -21,7 +21,7 @@ def menu():
 def passwordShit():
     global counter
     content = input('Password:>')
-    passwd = 'fuck'
+    passwd = 'test'
     if content == passwd:
         unlock()
     if content != passwd:
